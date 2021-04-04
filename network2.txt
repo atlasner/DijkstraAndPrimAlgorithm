@@ -1,0 +1,47 @@
+# kazda linia zaczynajaca sie od # jest ignorowana
+# kolejnosc danych bedzie zawsze taka sama
+# liczba wezlow, wezly numerowane sa od 1
+HUB = 8
+NODESCON = 5
+CONNECTA = 1
+CONNECTB = 5
+CONNECTC = 9
+CONNECTD = 12
+CONNECTE = 10
+WEZLY = 12
+# kazdy wezel to trojka (identyfikator, wspolrzedna X, wspolrzedna Y)
+1 10 50
+2 30 56
+3 45 32
+4 90 23
+5 44 33
+6 52 47
+7 36 78
+8 74 38
+9 25 14
+10 18 69
+11 52 90
+12 60 43
+# liczba krawedzi
+LACZA = 20
+# kazde lacze to trojka (identyfikator, wezel poczatkowy, wezel koncowy)
+1 1 2
+2 2 3
+3 3 4
+4 4 5
+5 5 1
+6 5 6
+7 6 7
+8 7 8
+9 8 4
+10 3 8
+11 2 4 
+12 4 7
+13 9 11
+14 1 12
+15 8 12
+16 10 9
+17 10 5
+18 11 6
+19 9 3
+20 12 5
